@@ -8,7 +8,7 @@ All offsets and patterns that needs to be modified based on your windows version
 
 Following the guide inside the folder will help you figure it out how to retrieve the opcodes and offsets.
 
-*Each subsection contains a readme with instructions*
+<b> Each subsection contains a readme with instructions </b>
 
 ## New Undisclosed Technique 
 I discovered an alternative method that bypasses kernel-level verification by overwriting the callback function inside the Callback entry itself with a KCFG-compliant function that simply returns. This evades detections that monitor changes at the callback array level `(For Kernel Notify Routines Callbacks)`.
